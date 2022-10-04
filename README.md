@@ -7,4 +7,4 @@ Repositório referente ao Projeto Integrador - 1º Semestre 2022 Fatec Araras - 
 <ul>Kauan Martins
 <ul>Nathalia Gonçalves
 <ul>Thiago Barros Gomes
-<ul>Vitor Carvalho
+<li>Vitor Carvalho
