@@ -5,7 +5,7 @@ PI-WEB (Prof Sandro)
 * Requisitos (Agora sim é o cliente).
 
 * Cronograma
-  - Entrevista com cliente.
-  - Demonstracao 01
-  - Demonstracao 02
-  - Demonstracao Final
+  - Entrevista com cliente.   _______________________________
+  - Demonstracao 01           _______________________________
+  - Demonstracao 02           _______________________________
+  - Demonstracao Final        _______________________________
