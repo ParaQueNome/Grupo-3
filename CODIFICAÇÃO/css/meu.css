@@ -108,3 +108,8 @@ section.secajust {
 .mediasocial {
     color: #32a7ea;
 }
+
+.mediasocialfooter {
+    --bs-bg-opacity: 1;
+    background-color: #32a7ea;
+}
