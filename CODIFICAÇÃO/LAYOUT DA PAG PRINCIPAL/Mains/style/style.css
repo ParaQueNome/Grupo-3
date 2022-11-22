@@ -1,0 +1,66 @@
+/*Gerais*/
+#content {
+    font-size: 0;
+	width: 100%;
+	height: auto;
+	position: relative;
+	float: left;
+}
+body{
+    font-family: 'Roboto', 'sans-serif';
+}
+
+.row{
+    margin: 0;
+}
+.container{
+    padding: 70px 0;
+
+}
+.container1{
+    padding: 10px;
+    display: inline-block;
+}
+
+p, li{
+    color: rgb(223, 213, 213);
+    font-size: 14px;
+
+}
+
+/*Barra de Nav*/
+
+header, .navbar{
+    background-color: #353d41;
+
+}
+
+#nav-container{
+    padding-top: 0;
+    padding-bottom: 0;
+
+}
+
+#logo{
+    width: 60px;
+}
+
+.div{
+    display: inline-block;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    height: 850px;
+    width: 25%;
+    background-color:#353d41 ;
+}
+
+.div1{
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    height: 850px;
+    width: 73%;
+    background-color:#353d41 ;
+}
+
