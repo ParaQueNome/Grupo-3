@@ -1,0 +1,64 @@
+body {
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "ads article"
+        "nav article"
+        "nav footer";
+    grid-template-rows: 80px 120px 1fr 80px;
+    grid-template-columns: 20% 1fr;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    height: 95vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+header,
+footer,
+article,
+nav,
+div {
+    padding: 1.2em;
+    background: yellowgreen;
+}
+
+#pageHeader {
+    grid-area: header;
+}
+
+#pageFooter {
+    grid-area: footer;
+}
+
+#mainArticle {
+    grid-area: article;
+}
+
+#mainNav {
+    grid-area: nav;
+}
+
+#siteAds {
+    grid-area: ads;
+}
+
+/* Stack the layout on small devices/viewports. */
+@media all and (max-width: 575px) {
+    body {
+        grid-template-areas:
+            "header"
+            "article"
+            "ads"
+            "nav"
+            "footer";
+        grid-template-rows: 80px 1fr 70px 1fr 70px;
+        grid-template-columns: 1fr;
+    }
+}
+
+.logoajust {
+    size: 5%;
+}

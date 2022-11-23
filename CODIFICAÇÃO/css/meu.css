@@ -1,3 +1,11 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
 .meulogo {
     margin: 0 auto;
 }
@@ -29,10 +37,6 @@
     width: 60%;
 }
 
-* {
-
-    box-sizing: border-box;
-}
 
 section.secajust {
     margin-top: 1rem;
@@ -112,4 +116,8 @@ section.secajust {
 .mediasocialfooter {
     --bs-bg-opacity: 1;
     background-color: #32a7ea;
+}
+
+footer {
+    color: #32a7ea;
 }
