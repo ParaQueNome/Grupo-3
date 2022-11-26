@@ -64,6 +64,7 @@
   --bs-body-color: #212529;
   --bs-body-bg: #fff;
   --bs-incentiva: #32a7ea;
+  --bs-incentiva-rgb: 50, 167, 234;
 }
 
 *,
@@ -8962,7 +8963,7 @@ fieldset:disabled .btn {
 
 .bg-incentiva {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-incentiva), var(--bs-bg-opacity)) !important;
+  background-color: rgba(var(--bs-incentiva-rgb)) !important;
 }
 
 .bg-black {

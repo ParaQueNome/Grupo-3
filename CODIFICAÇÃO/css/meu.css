@@ -10,6 +10,14 @@ body {
     margin: 0 auto;
 }
 
+
+
+.logopequeno {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    height: auto;
+}
+
 .divider:after,
 .divider:before {
     content: "";

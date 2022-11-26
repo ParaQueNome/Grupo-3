@@ -13,20 +13,17 @@
 </head>
 
 <body class="sb-nav-fixed">
-    <nav class="sb-topnav navbar navbar-expand navbar-dark mediasocial">
+    <nav class="sb-topnav navbar navbar-expand navbar-dark  bg-dark mediasocial">
         <!-- Navbar Brand-->
-        
-        <a class="navbar-brand ps-3" href="#">Incentiva</a>
-        
         <!-- Sidebar Toggle-->
         <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i
                 class="fas fa-bars"></i></button>
         <!-- Navbar Search-->
         <form class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0">
             <div class="input-group">
-                <input class="form-control" type="text" placeholder="Search for..." aria-label="Search for..."
+                <input class="form-control" type="text" placeholder="Pesquisar..." aria-label="Pesquisar..."
                     aria-describedby="btnNavbarSearch" />
-                <button class="btn btn-primary" id="btnNavbarSearch" type="button"><i
+                <button class="btn bg-incentiva text-white" id="btnNavbarSearch" type="button"><i
                         class="fas fa-search"></i></button>
             </div>
         </form>
@@ -34,14 +31,14 @@
         <ul class="navbar-nav ms-auto ms-md-0 me-3 me-lg-4">
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
-                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#!">Settings</a></li>
-                    <li><a class="dropdown-item" href="#!">Activity Log</a></li>
+                    aria-expanded="false"><i class="fas fa-user fa-fw mediasocial"></i></a>
+                <ul class="dropdown-menu dropdown-menu-end mediasocial" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="cadastrar.html">Settings</a></li>
+                    <li><a class="dropdown-item" href="index.html">Activity Log</a></li>
                     <li>
                         <hr class="dropdown-divider" />
                     </li>
-                    <li><a class="dropdown-item" href="#!">Logout</a></li>
+                    <li><a class="dropdown-item" href="index.html">Logout</a></li>
                 </ul>
             </li>
         </ul>
@@ -49,20 +46,21 @@
     <div id="layoutSidenav">
         <div id="layoutSidenav_nav">
             <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+                <img class="logopequeno img-fluid" src="./img/logo.png" alt="Logotipo incentiva">
                 <div class="sb-sidenav-menu">
                     <div class="nav">
                         <div class="sb-sidenav-menu-heading">Início</div>
-                        
+
                         <a class="nav-link" href="index.html">
-                            <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
-                            Seja bem vindo a nosso grupo de
+                            <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt mediasocial"></i></div>
+                            Seja bem vindo a nosso grupo de estudos!!!
                         </a>
                         <div class="sb-sidenav-menu-heading">Interface</div>
                         <a class="nav-link collapsed" href="#" data-bs-toggle="collapse"
                             data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
-                            <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                            <div class="sb-nav-link-icon"><i class="fas fa-columns mediasocial"></i></div>
                             Layouts
-                            <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                            <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down mediasocial"></i></div>
                         </a>
                         <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne"
                             data-bs-parent="#sidenavAccordion">
@@ -73,9 +71,9 @@
                         </div>
                         <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapsePages"
                             aria-expanded="false" aria-controls="collapsePages">
-                            <div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
+                            <div class="sb-nav-link-icon"><i class="fas fa-book-open mediasocial"></i></div>
                             Usuário
-                            <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                            <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down mediasocial"></i></div>
                         </a>
                         <div class="collapse" id="collapsePages" aria-labelledby="headingTwo"
                             data-bs-parent="#sidenavAccordion">
@@ -84,7 +82,8 @@
                                     data-bs-target="#pagesCollapseAuth" aria-expanded="false"
                                     aria-controls="pagesCollapseAuth">
                                     Autenticar
-                                    <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                                    <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down mediasocial"></i>
+                                    </div>
                                 </a>
                                 <div class="collapse" id="pagesCollapseAuth" aria-labelledby="headingOne"
                                     data-bs-parent="#sidenavAccordionPages">
@@ -98,7 +97,8 @@
                                     data-bs-target="#pagesCollapseError" aria-expanded="false"
                                     aria-controls="pagesCollapseError">
                                     Error
-                                    <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                                    <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down mediasocial"></i>
+                                    </div>
                                 </a>
                                 <div class="collapse" id="pagesCollapseError" aria-labelledby="headingOne"
                                     data-bs-parent="#sidenavAccordionPages">
@@ -112,18 +112,18 @@
                         </div>
                         <div class="sb-sidenav-menu-heading">Addons</div>
                         <a class="nav-link" href="charts.html">
-                            <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
+                            <div class="sb-nav-link-icon"><i class="fas fa-chart-area mediasocial"></i></div>
                             Charts
                         </a>
                         <a class="nav-link" href="tables.html">
-                            <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                            <div class="sb-nav-link-icon"><i class="fas fa-table mediasocial"></i></div>
                             Tables
                         </a>
                     </div>
                 </div>
                 <div class="sb-sidenav-footer">
-                    <div class="small">Logged in as:</div>
-                    Start Bootstrap
+                    <div class="small">Conectado:</div>
+                    José Joaquim
                 </div>
             </nav>
         </div>
@@ -177,61 +177,429 @@
                         <div class="col-xl-6">
                             <div class="card mb-4">
                                 <div class="card-header">
-                                    <i class="fas fa-chart-area me-1"></i>
-                                    Area Chart Example
+                                    <i class="fas fa-chart-area me-1 mediasocial"></i>
+                                    Ultimas postagens
                                 </div>
-                                <div class="card-body"><canvas id="myAreaChart" width="100%" height="40"></canvas></div>
+                                <div class="card-body">
+
+                                    <!-- postagens -->
+                                    <div class="forum-item active">
+                                        <div class="row">
+                                            <div class="col-md-9">
+                                                <div class="forum-icon">
+                                                    <i class="fa fa-shield"></i>
+                                                </div>
+                                                <a href="forum_post.html" class="forum-item-title">General
+                                                    Discussion</a>
+                                                <div class="forum-sub-title">Talk about sports, entertainment,
+                                                    music, movies, your favorite color, talk about enything.</div>
+                                            </div>
+                                            <div class="col-md-1 forum-info">
+                                                <span class="views-number">
+                                                    1216
+                                                </span>
+                                                <div>
+                                                    <small>Views</small>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-1 forum-info">
+                                                <span class="views-number">
+                                                    368
+                                                </span>
+                                                <div>
+                                                    <small>Topics</small>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-1 forum-info">
+                                                <span class="views-number">
+                                                    140
+                                                </span>
+                                                <div>
+                                                    <small>Posts</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- postagem dois-->
+
+                                    <div class="forum-item">
+                                        <div class="row">
+                                            <div class="col-md-9">
+                                                <div class="forum-icon">
+                                                    <i class="fa fa-bolt"></i>
+                                                </div>
+                                                <a href="forum_post.html" class="forum-item-title">Introductions</a>
+                                                <div class="forum-sub-title">New to the community? Please stop by, say
+                                                    hi and tell us a bit about yourself. </div>
+                                            </div>
+                                            <div class="col-md-1 forum-info">
+                                                <span class="views-number">
+                                                    890
+                                                </span>
+                                                <div>
+                                                    <small>Views</small>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-1 forum-info">
+                                                <span class="views-number">
+                                                    120
+                                                </span>
+                                                <div>
+                                                    <small>Topics</small>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-1 forum-info">
+                                                <span class="views-number">
+                                                    154
+                                                </span>
+                                                <div>
+                                                    <small>Posts</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!--postagem tres-->
+
+                                    <div class="forum-item active">
+                                        <div class="row">
+                                            <div class="col-md-9">
+                                                <div class="forum-icon">
+                                                    <i class="fa fa-calendar"></i>
+                                                </div>
+                                                <a href="forum_post.html" class="forum-item-title">Announcements</a>
+                                                <div class="forum-sub-title">This forum features announcements from the
+                                                    community staff. If there is a new post in this forum, please check
+                                                    it out. </div>
+                                            </div>
+                                            <div class="col-md-1 forum-info">
+                                                <span class="views-number">
+                                                    680
+                                                </span>
+                                                <div>
+                                                    <small>Views</small>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-1 forum-info">
+                                                <span class="views-number">
+                                                    124
+                                                </span>
+                                                <div>
+                                                    <small>Topics</small>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-1 forum-info">
+                                                <span class="views-number">
+                                                    61
+                                                </span>
+                                                <div>
+                                                    <small>Posts</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="col-xl-6">
                             <div class="card mb-4">
                                 <div class="card-header">
-                                    <i class="fas fa-chart-bar me-1"></i>
-                                    Bar Chart Example
+                                    <i class="fas fa-chart-bar me-1 mediasocial"></i>
+                                    Mais votadas
                                 </div>
-                                <div class="card-body"><canvas id="myBarChart" width="100%" height="40"></canvas></div>
+                                <div class="card-body">
+
+                                    <!-- postagens -->
+                                    <div class="forum-item active">
+                                        <div class="row">
+                                            <div class="col-md-9">
+                                                <div class="forum-icon">
+                                                    <i class="fa fa-shield"></i>
+                                                </div>
+                                                <a href="forum_post.html" class="forum-item-title">General
+                                                    Discussion</a>
+                                                <div class="forum-sub-title">Talk about sports, entertainment,
+                                                    music, movies, your favorite color, talk about enything.</div>
+                                            </div>
+                                            <div class="col-md-1 forum-info">
+                                                <span class="views-number">
+                                                    1216
+                                                </span>
+                                                <div>
+                                                    <small>Views</small>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-1 forum-info">
+                                                <span class="views-number">
+                                                    368
+                                                </span>
+                                                <div>
+                                                    <small>Topics</small>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-1 forum-info">
+                                                <span class="views-number">
+                                                    140
+                                                </span>
+                                                <div>
+                                                    <small>Posts</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- postagem dois-->
+
+                                    <div class="forum-item">
+                                        <div class="row">
+                                            <div class="col-md-9">
+                                                <div class="forum-icon">
+                                                    <i class="fa fa-bolt"></i>
+                                                </div>
+                                                <a href="forum_post.html" class="forum-item-title">Introductions</a>
+                                                <div class="forum-sub-title">New to the community? Please stop by, say
+                                                    hi and tell us a bit about yourself. </div>
+                                            </div>
+                                            <div class="col-md-1 forum-info">
+                                                <span class="views-number">
+                                                    890
+                                                </span>
+                                                <div>
+                                                    <small>Views</small>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-1 forum-info">
+                                                <span class="views-number">
+                                                    120
+                                                </span>
+                                                <div>
+                                                    <small>Topics</small>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-1 forum-info">
+                                                <span class="views-number">
+                                                    154
+                                                </span>
+                                                <div>
+                                                    <small>Posts</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!--postagem tres-->
+
+                                    <div class="forum-item active">
+                                        <div class="row">
+                                            <div class="col-md-9">
+                                                <div class="forum-icon">
+                                                    <i class="fa fa-calendar"></i>
+                                                </div>
+                                                <a href="forum_post.html" class="forum-item-title">Announcements</a>
+                                                <div class="forum-sub-title">This forum features announcements from the
+                                                    community staff. If there is a new post in this forum, please check
+                                                    it out. </div>
+                                            </div>
+                                            <div class="col-md-1 forum-info">
+                                                <span class="views-number">
+                                                    680
+                                                </span>
+                                                <div>
+                                                    <small>Views</small>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-1 forum-info">
+                                                <span class="views-number">
+                                                    124
+                                                </span>
+                                                <div>
+                                                    <small>Topics</small>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-1 forum-info">
+                                                <span class="views-number">
+                                                    61
+                                                </span>
+                                                <div>
+                                                    <small>Posts</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+
+
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="card mb-4">
                         <div class="card-header">
-                            <i class="fas fa-table me-1"></i>
-                            DataTable Example
+                            <i class="fas fa-table me-1 mediasocial"></i>
+                            Postagens
                         </div>
                         <div class="card-body">
-                            <table id="datatablesSimple">
-                                <thead>
-                                    <tr>
-                                        <th>Name</th>
-                                        <th>Position</th>
-                                        <th>Office</th>
-                                        <th>Age</th>
-                                        <th>Start date</th>
-                                        <th>Salary</th>
-                                    </tr>
-                                </thead>
-                                <tfoot>
-                                    <tr>
-                                        <th>Name</th>
-                                        <th>Position</th>
-                                        <th>Office</th>
-                                        <th>Age</th>
-                                        <th>Start date</th>
-                                        <th>Salary</th>
-                                    </tr>
-                                </tfoot>
-                                <tbody>
-                                    <tr>
-                                        <td>Tiger Nixon</td>
-                                        <td>System Architect</td>
-                                        <td>Edinburgh</td>
-                                        <td>61</td>
-                                        <td>2011/04/25</td>
-                                        <td>$320,800</td>
-                                    </tr>
+                            <div class="forum-title">
+                                <div class="pull-right forum-desc">
+                                    <samll>Total posts: 17,800,600</samll>
+                                </div>
+                                <h3>Other subjects</h3>
+                            </div>
 
-                                </tbody>
-                            </table>
+                            <div class="forum-item">
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <div class="forum-icon">
+                                            <i class="fa fa-clock-o"></i>
+                                        </div>
+                                        <a href="forum_post.html" class="forum-item-title">Lorem Ipsum is simply dummy
+                                            text. </a>
+                                        <div class="forum-sub-title">Various versions have evolved over the years,
+                                            sometimes by accident, sometimes on purpose passage of Lorem Ipsum (injected
+                                            humour and the like).</div>
+                                    </div>
+                                    <div class="col-md-1 forum-info">
+                                        <span class="views-number">
+                                            1516
+                                        </span>
+                                        <div>
+                                            <small>Views</small>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-1 forum-info">
+                                        <span class="views-number">
+                                            238
+                                        </span>
+                                        <div>
+                                            <small>Topics</small>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-1 forum-info">
+                                        <span class="views-number">
+                                            180
+                                        </span>
+                                        <div>
+                                            <small>Posts</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="forum-item">
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <div class="forum-icon">
+                                            <i class="fa fa-bomb"></i>
+                                        </div>
+                                        <a href="forum_post.html" class="forum-item-title">There are many variations of
+                                            passages</a>
+                                        <div class="forum-sub-title"> If you are going to use a passage of Lorem Ipsum,
+                                            you need to be sure there isn't anything embarrassing hidden in the middle
+                                            of text. All the Lorem Ipsum generators on the . </div>
+                                    </div>
+                                    <div class="col-md-1 forum-info">
+                                        <span class="views-number">
+                                            1766
+                                        </span>
+                                        <div>
+                                            <small>Views</small>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-1 forum-info">
+                                        <span class="views-number">
+                                            321
+                                        </span>
+                                        <div>
+                                            <small>Topics</small>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-1 forum-info">
+                                        <span class="views-number">
+                                            42
+                                        </span>
+                                        <div>
+                                            <small>Posts</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="forum-item">
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <div class="forum-icon">
+                                            <i class="fa fa-bookmark"></i>
+                                        </div>
+                                        <a href="forum_post.html" class="forum-item-title">The standard chunk of Lorem
+                                            Ipsum</a>
+                                        <div class="forum-sub-title">Ipsum generators on the Internet tend to repeat
+                                            predefined chunks as necessary, making this the first true generator on the
+                                            Internet.</div>
+                                    </div>
+                                    <div class="col-md-1 forum-info">
+                                        <span class="views-number">
+                                            765
+                                        </span>
+                                        <div>
+                                            <small>Views</small>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-1 forum-info">
+                                        <span class="views-number">
+                                            90
+                                        </span>
+                                        <div>
+                                            <small>Topics</small>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-1 forum-info">
+                                        <span class="views-number">
+                                            11
+                                        </span>
+                                        <div>
+                                            <small>Posts</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="forum-item">
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <div class="forum-icon">
+                                            <i class="fa fa-ambulance"></i>
+                                        </div>
+                                        <a href="forum_post.html" class="forum-item-title">Lorem Ipsum, you need to be
+                                            sure there</a>
+                                        <div class="forum-sub-title">Internet tend to repeat predefined chunks as
+                                            necessary, making this the</div>
+                                    </div>
+                                    <div class="col-md-1 forum-info">
+                                        <span class="views-number">
+                                            2550
+                                        </span>
+                                        <div>
+                                            <small>Views</small>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-1 forum-info">
+                                        <span class="views-number">
+                                            122
+                                        </span>
+                                        <div>
+                                            <small>Topics</small>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-1 forum-info">
+                                        <span class="views-number">
+                                            92
+                                        </span>
+                                        <div>
+                                            <small>Posts</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -239,11 +607,11 @@
             <footer class="py-4 bg-light mt-auto">
                 <div class="container-fluid px-4">
                     <div class="d-flex align-items-center justify-content-between small">
-                        <div class="text-muted">Copyright &copy; Your Website 2022</div>
+                        <div class="text-muted">Copyright &copy; FATEC 2022 by BOOTSTRAP 5.2</div>
                         <div>
-                            <a href="#">Privacy Policy</a>
+                            <a href="#">Politica de Privacidade</a>
                             &middot;
-                            <a href="#">Terms &amp; Conditions</a>
+                            <a href="#">Termos &amp; Condições</a>
                         </div>
                     </div>
                 </div>
