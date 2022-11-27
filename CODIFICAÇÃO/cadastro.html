@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/meu2.css" rel="stylesheet">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="logoajust1">
+        <img src="./img/logo.png" alt="Sample image">
+    </div>
+    <div class="campo">
+        <h1 id="titulo">Cadastro de Usuários</h1>
+
+        <p>Informe seus dados para cadastro</p>
+    </div>
+    <form action="input">
+        <fieldset class="grupo">
+            <div class="campo input-group mb-4">
+                <label for="nome">Nome</label>
+                <input type="text" class="form-control" name="nome" id="nome" placeholder="Nome" required>
+
+
+            </div>
+            <div class="campo input-group mb-4">
+                <label for="sobrenome">Sobrenome</label>
+                <input type="text" class="form-control" name="sobrenome" id="sobrenome" placeholder="Sobrenome"required>
+
+            </div>
+            <div class="campo input-group mb-4">
+                <label for="email">Senha</label>
+                <input type="password" class="form-control" name="senha" id="senha" placeholder="Senha" required>
+            </div>
+            <div class="campo input-group mb-4">
+                <label>Confirmar Senha</label>
+                <input type="password" class="form-control" name="senha" id="senha" placeholder="Confirmar Senha" required>
+            </div>
+        </fieldset>
+        <div class="campo">
+            <label>Email</label>
+            <input type="email" class="form-control" name="Email" id="email" placeholder="E-mail" required>
+        </div>
+        <div class="campo input-group mb-4">
+            <label>Qual o seu Gênero?</label>
+            <label for="genero">
+                <input type="radio" name="genero" value="Masculino">Masculino
+            </label>
+            <label for="">
+                <input type="radio" name="genero" value="Femino">Femino
+            </label>
+        </div>
+        <fieldset class="grupo ">
+            <div id="check">
+                <label>Selecione as áreas de interesse:</label><br><br>
+                <input type="checkbox" name="area1" id="area1" value="Fisica">
+                <label for="area1">Física</label>
+                <input type="checkbox" name="area2" id="area2" value="Matematica">
+                <label for="area2">Matematica</label>
+                <input type="checkbox" name="area3" id="area3" value="Quimica">
+                <label for="area3">Química</label>
+                <input type="checkbox" name="area4" id="area4" value="Biologia">
+                <label for="area4">Biologia</label>
+                <input type="checkbox" name="area5" id="area5" value="Portugues">
+                <label for="area5">Português</label>
+                <input type="checkbox" name="area6" id="area6" value="Inglês">
+                <label for="area6">Inglês</label>
+                <input type="checkbox" name="area7" id="area7" value="Espanhol">
+                <label for="area7">Química</label>
+                <input type="checkbox" name="area8" id="area8" value="Historia">
+                <label for="area8">História</label>
+                <input type="checkbox" name="area9" id="area9" value="Geografia">
+                <label for="area9">Geografia</label>
+                <input type="checkbox" name="area10" id="area10" value="Literatura">
+                <label for="area10">Literatura</label>
+                <input type="checkbox" name="area11" id="area11" value="Tecnologia">
+                <label for="area11">Tecnologia</label>
+                <input type="checkbox" name="area12" id="area12" value="Atualidades">
+                <label for="area12">Atualidades</label>
+                <input type="checkbox" name="area13" id="area13" value="Filosofia">
+                <label for="area13">Filosofia</label>
+            </div>
+        </fieldset>
+    </form>
+    <a href="main.html"><button class="botao1" style="background: #069cc2; border-radius: 6px; padding: 15px; cursor: pointer; color: #fff; border: none; font-size: 16px;">Cadastrar</button></a>
+</body>
+</html>

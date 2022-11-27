@@ -51,6 +51,11 @@ body {
     margin-bottom: 2rem;
     width: 60%;
 }
+.logoajust1{
+    margin-left: 40%;
+    
+    margin-top: 10px;
+}
 
 
 section.secajust {
@@ -305,4 +310,84 @@ a.forum-item-title:hover {
     .forum-desc {
         float: none !important;
     }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#titulo{
+    font-family: sans-serif;
+    color: #32a7ea;
+    margin-left: 7%;
+}
+#subtitulo{
+    font-family: sans-serif;
+    color: #32a7ea;
+    margin-left: 10%;
+}
+fieldset{
+    border: 0;
+
+}
+.body1{
+    background-color: #F0f8ff;
+    font-family: sans-serif;
+    font-size: 1em;
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: center;
+
+}
+input, select, textarea, button{
+    border-radius: 5px;
+
+}
+
+.campo{
+    margin-bottom: 1em;
+
+}
+
+.campo label{
+    margin-bottom: 0.2em;
+    color:#32a7ea ;
+    display: block;
+}
+
+fieldset.grupo .campo{
+    float: left;
+    margin-right: 1em;
+
+}
+
+.campo input[type="text"], .campo[type="email"], .campo select, .campo textarea{
+    padding: 0.2em;
+    border: 1px solid #32a7ea;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+    display: block;
+
+
+}
+.campo select option{
+    padding-right: 1em;
+}
+.campo input:focus, .campo select:focus, .campo textarea:focus{
+    background: #F0f8ff;
+}
+.botao1{
+    font-size: 1.2em;
+    border: 0;
+    margin-bottom: 1em;
+    padding: 0.2em 0.6em;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate((-50%, -50%));
+
+}
+#check {
+    display: inline-block;
 }
