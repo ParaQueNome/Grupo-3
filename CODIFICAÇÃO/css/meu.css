@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #dfe9f5;
 
 }
 
@@ -133,6 +134,10 @@ section.secajust {
     color: #4aac4e;
 }
 
+.colortitle {
+    background-color: #cecece;
+}
+
 /* cores projeto 
     azul - 32a7ea
     rosa - f895d6
@@ -147,6 +152,11 @@ section.secajust {
 
 footer {
     color: #32a7ea;
+}
+
+.tamanhotext {
+    padding-left: 20px;
+    width: 80vh;
 }
 
 
